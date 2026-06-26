@@ -1,0 +1,9 @@
+# Core dependencies for candidate ranking system
+# CPU-only, no heavy ML libraries (to meet 5-min constraint on 16GB RAM)
+
+# No external dependencies required for core ranking logic
+# Python 3.8+ standard library is sufficient (gzip, json, csv, re, datetime, argparse)
+
+# Optional: for data validation and testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
